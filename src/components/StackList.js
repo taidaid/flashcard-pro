@@ -7,7 +7,7 @@ import { setStack, loadStacks } from "../actions/actions";
 export class StackList extends Component {
   componentDidMount() {
     if (this.props.stacks.length === 0) {
-      console.log("loading stacks");
+      // console.log("loading stacks");
       this.props.loadStacks(stacks);
     }
   }
