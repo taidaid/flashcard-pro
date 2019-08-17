@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 import { addStack } from "../actions/actions";
 
-class StackForm extends Component {
+export class StackForm extends Component {
   constructor() {
     super();
     this.state = {
