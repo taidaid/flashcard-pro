@@ -1,5 +1,4 @@
 import rootReducer from "./reducers";
-import * as actions from "../actions/actions";
 import * as constants from "../constants/constants";
 import { stack, stacks } from "../data/fixtures";
 
